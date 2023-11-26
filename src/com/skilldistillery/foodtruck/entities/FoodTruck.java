@@ -3,11 +3,11 @@ package com.skilldistillery.foodtruck.entities;
 public class FoodTruck {
 	private String truckName;
 	private String foodType;
-	private int truckRating;
+	private double truckRating;
 
 	public FoodTruck() {}
 
-	public FoodTruck(String newtruckName, String newfoodType, int newtruckRating) {
+	public FoodTruck(String newtruckName, String newfoodType, double newtruckRating) {
 		this.truckName = newtruckName;
 		this.foodType = newfoodType;
 		this.truckRating = newtruckRating;
